@@ -46,7 +46,7 @@ class WeatherViewModel @Inject constructor(
             }?: kotlin.run {
                 state =state.copy(
                     isLoading = false,
-                    error = "couldn;t retrive location make sure to grant permission and gps"
+                    error = "couldn't retrive location make sure to grant permission and gps"
                 )
             }
         }
